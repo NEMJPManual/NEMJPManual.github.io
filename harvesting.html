@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="lightbox.css" media="screen,tv" />
+<script src="./js/jquery.js"></script>
+<script src="./js/lightbox.js"></script>
+<title>ハーベスティングについて</title>
+<style>
+.box1{
+font-size:20px;
+margin:20px 0;
+}
+.merit{
+color:green;
+}
+.demerit{
+color:red;
+}
+
+h3,h4{
+margin:10px 0;
+}
+</style>
+</head>
+<body>
+<div>
+<div style="margin:10px 0;background-color:#FAFAFA;display:inline-block;border-radius:10px;padding:10px;border:1px solid;">
+<b>このページで必要な知識</b><br>
+・NEM基本用語<br>
+・NIS/NCCとlightwallet<br>
+・リモートNISとローカルNIS<br>
+・Vested Balanceについて
+</div>
+<a href="/">NEMの説明書 TOPにもどる</a>
+<p>
+このページでは、ハーベスティングの概要と仕組みを説明しています。<br>
+デリゲート(委任)ハーベスティングのやり方については<a href="d_harvesting.html">こちら準備中</a>
+</p>
+ページ内の画像はクリックで拡大できます。
+<h1>ハーベスティングとは</h1>
+<h2 id="一言">一言で</h2>
+<div class="box1">
+もし10000XEM以上(Vested Balanceが)もっていれば、やるとタダでXEMがもらえる。
+</div>
+<h2 id="概要">概要</h2>
+<div class="box1">
+NEM利用者は、取引が正当だと承認してもらうために手数料を払い取引を行います。(手数料がないと承認する人にとってメリットが無いため。)<br>
+承認は10000XEM以上(Vested Balanceが)持っているアカウントなら誰でも行うことができます。<br>
+取引を承認し、払われた手数料を受け取ることをNEMでは「ハーベスティング(収穫)」と呼ばれています。<br>
+NEMではこれが約1分に1回行われていて、その1分間に取引がなければ手数料が払われていないため収穫しても報酬を受け取ることはできません。<br>
+</div>
+<div class="box1">
+誰が収穫するか は、Inportance(重要性)を元に、多分ランダムで決まります。<br>
+このImportanceが高いほど、分子が大きくなることを意味し、収穫できる確率が高まります。<br>
+このImportanceは、XEM保有量を元に、取引数、取引量、取引相手などを考慮し決定されています。<br>
+複雑な計算式が設定されているので、ここではその説明は割愛します。
+</div>
+<div class="box1">
+自身のImportanceはNCCのダッシュボード、「右上のNEMクラウドのアカウントの重要性」で確認できます。<br>
+なお「‱」はパーミリアドと読み、1‱は0.01%を意味します。<br>
+<a href="http://i.imgur.com/FUEwf6U.png" rel="lightbox"><img src="http://i.imgur.com/FUEwf6U.png" alt="" width="30%" /></a>
+</div>
+<h2>ハーベスティングの種類</h2>
+<div class="box1">
+ハーベスティングにはローカルハーベスティングとデリゲート(委任)ハーベスティングの2種類があります。<br>
+どちらでも報酬は変わりません。が、それぞれメリットデメリットがあるのでそれぞれの環境でどちらを利用するべきかが変わります。
+<div style="margin:10px 0; border:1px solid;">
+<h3>ローカルハーベスティング</h3>
+<h4 class="merit">メリット</h4>
+・ボタン１つですぐできる<br>
+・手数料がかからない<br>
+<h4 class="demerit">デメリット</h4>
+・リモートのNIS使用時にはできない<br>
+・自分でNISを維持しないといけない(電気代などがかかる)<br>
+<h3>デリゲート(委任)ハーベスティング</h3>
+<h4 class="merit">メリット</h4>
+・リモートNISでも利用できる<br>
+・(リモートNISを利用した場合)自身のコンピュータの電源を切っても継続される<br>
+<h4 class="demerit">デメリット</h4>
+・6時間待たないといけない<br>
+・手数料(今は10XEM)がかかる。無効化するときも同様。<br>
+・リモートNISの中には定員を設定してあることがある<br>
+</div>
+基本的に自分で24時間NISを起動させており、電気代を気にしない方はローカル、それ以外の方はデリゲート(委任)をおすすめします。
+<p>
+(リモートNISに対してローカルハーベスティングはできませんが、ローカルNISに対してデリゲート(委任)ハーベスティングはすることができます。しかし、この場合ローカルNISが稼働している間しか収穫できませんが、それはローカルハーベスティングでも同じなので、ローカルハーベスティングを使用したほうが、手数料を取られなくて済みます。)</p>
+</div>
+</div>
+</body>
+</html>

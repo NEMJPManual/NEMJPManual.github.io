@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="lightbox.css" media="screen,tv" />
+<script src="./js/jquery.js"></script>
+<script src="./js/lightbox.js"></script>
+<title>デリゲート(委任)ハーベスティングのやり方</title>
+<style>
+.box1{
+line-height:1.5em;
+margin:20px 0;
+}
+</style>
+</head>
+<body>
+<div>
+<div style="margin:10px 0;background-color:#FAFAFA;display:inline-block;border-radius:10px;padding:10px;border:1px solid;">
+<b>このページで必要な知識</b><br>
+・パソコンの基本的な知識<br>
+・NEM基本用語<br>
+・NIS/NCCとlightwallet<br>
+・リモートNISとローカルNIS<br>
+・Vested Balanceについて<br>
+・ハーベスティングについて
+</div>
+<a href="/">NEMの説明書 TOPにもどる</a>
+<p>
+このページでは、デリゲート(委任)ハーベスティングのやり方を説明しています。<br>
+デリゲート(委任)ハーベスティングの仕組みなどについては<a href="#">こちら準備中</a>
+</p>
+ページ内の画像はクリックで拡大できます。
+<h1>[1] デリゲート(委任)ハーベスティングのやり方</h1>
+<div class="box1">
+<h2>条件</h2>
+・Vested Balanceが10000以上であること(詳しくは<a href="vested_balance.html">Vested Balanceについて</a>を参照。)<br>
+・それに加え有効化する際に使用する10XEMがあること。(つまりVested Balanceが10010以上あれば間違いない)
+</div>
+
+<div class="box1">
+<h2>1-1, NCCを開く</h2>
+まず、NCCを起動しブラウザで開き、ログインします。
+</div>
+
+<div class="box1">
+<h2>1-2, [Delegated harvesting]ボタンをクリック</h2>
+次に、右上の[Delegated harvesting]ボタンをクリックします。<br>
+<a href="http://i.imgur.com/KGtu1Jc.png" rel="lightbox"><img src="http://i.imgur.com/KGtu1Jc.png" alt="" width="30%" /></a>
+</div>
+
+<div class="box1">
+<h2>1-3, デリゲートハーベスティングを有効にさせる</h2>
+<p>
+画像のような画面が出るので、<br>
+次の箇所を確認・入力して[送る]ボタンをクリックしてください。
+</p>
+<p>
+この時、306 Unexpected errorが出る場合があることが確認されています。<br>
+解決策はわかっていないのでとりあえず×ボタンをクリックして閉じましょう。<br>
+もしその後おかしくなったらnemフォーラムやmijinフォーラム等で相談してみましょう。
+</p>
+<p>
+<table>
+<tr><td>アカウント</td><td>デリゲートハーベスティングを有効にしたいVested Balanceが10000XEM以上あるアカウント</td></tr>
+<tr><td>Use minimum fee</td><td>ここにチェックが入っていれば手数料が最小で済みます。</td></tr>
+<tr><td>パスワード</td><td>ウォレットのパスワードを入力してください</td></tr>
+</table>
+</p>
+<a href="http://i.imgur.com/JFVx1Kk.png" rel="lightbox"><img src="http://i.imgur.com/JFVx1Kk.png" alt="" width="30%" /></a>
+</div>
+
+<div class="box1">
+<h2>1-4, およそ6時間待つ</h2>
+右上の[Delegated harvesting]ボタンの横に「Activating delegated harvesting...」と表示され、<br>
+取引履歴に、緑のアイコンのメッセージ・残高が n/a となっている取引が表示されます。<br>
+この取引の承認数が360 (およそ6時間かかります)になるとデリゲートハーベスティングが有効になります。<br>
+<a href="http://i.imgur.com/rm81RYW.png" rel="lightbox"><img src="http://i.imgur.com/rm81RYW.png" alt="" width="30%" /></a>
+</div>
+
+<div class="box1">
+<h2>1-5, デリゲートハーベスティングを開始させる</h2>
+<p>
+有効にしても、開始させなければ意味がありません。
+</p>
+<p>
+「現在の残高」の下に表示されているVested Balanceが10000以上であることを確認し、<br>
+[Start delegated harvesting]ボタンをクリックしてください。<br>
+(「ハーベスティングを開始する」のままの場合、アカウント名右の下矢印から更新するをクリックして更新をしてみましょう。それでもダメならNCCを再起動してください)
+</p>
+<p>
+次に、出てきた画面にパスワードを入力し、[開始]ボタンをクリックします。
+</p>
+<p>
+もし、ここでエラー699が出た場合、そのNISでデリゲートハーベスティング定員に達しています<br>
+<a href="">こちらを参考に</a>別のリモートNISに接続して再度試してください。
+</p>
+<p>
+また、ここでエラー700が出た場合、残高が足りません。現在の残高の下に書かれているVested Balanceが10000にならなければ<br>
+いけません。これは残高に応じて少しずつ増えていきますので、早くやりたい場合はXEMを多めに入れておくことをおすすめします。
+</p>
+<a href="http://i.imgur.com/aN9pbFi.png" rel="lightbox"><img src="http://i.imgur.com/aN9pbFi.png" alt="" width="30%" /></a><br>
+<a href="http://i.imgur.com/jkQcowG.png" rel="lightbox"><img src="http://i.imgur.com/jkQcowG.png" alt="" width="30%" /></a>
+</div>
+
+<div class="box1">
+<h2>1-6, 完了</h2>
+これで完了です。あとは放置していれば勝手に収穫をしてくれます。<br>
+左のメニューから[ハーベストされたブロック]を開けばどれだけ稼げたか確認できます。<br>
+リモートNISであれば、もうコンピューターを起動させる必要はありません。<br>
+デリゲートハーベスティングの無効化方法はこの下に書いてあります。
+</div>
+
+<h1>[2] デリゲート(委任)ハーベスティングの無効化</h1>
+<div class="box1">
+<h2>2-1, まず停止させる</h2>
+「1-5, デリゲートハーベスティングを開始させる」で押した[Start delegated harvesting]ボタンが、<br>
+[Stop delegated harvesting]ボタンに変わっているはずですので、これをクリックし停止させます。<br>
+おそらくこの手順を飛ばしても動くとは思いますが、ハーベスティング関連はバグが多いので念の為やっておきましょう。
+</div>
+<h2>2-2, </h2>
+「5, デリゲートハーベスティングを開始させる」で押した[Start delegated harvesting]ボタンが、<br>
+[Stop delegated harvesting]ボタンに変わっているはずですので、これをクリックし停止させます。<br>
+おそらくこの手順を飛ばしても動くとは思いますが、ハーベスティング関連はバグが多いので念の為やっておきましょう。
+</div>
+
+</div>
+</body>
+</html>
