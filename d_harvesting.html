@@ -28,8 +28,8 @@
 <h1>[1] デリゲート(委任)ハーベスティングのやり方</h1>
 <div class="box1">
 <h2>条件</h2>
-・Vested Balanceが10000以上であること(詳しくは<a href="vested_balance.html">Vested Balanceについて</a>を参照。)<br>
-・それに加え有効化する際に使用する10XEMがあること。(つまりVested Balanceが10010以上あれば間違いない)
+・Vested Balanceが10000以上のアカウントであること(詳しくは<a href="vested_balance.html">Vested Balanceについて</a>を参照。)<br>
+・それに加え有効化する際に使用する10XEMがあること。
 </div>
 
 <div class="box1">
@@ -45,22 +45,18 @@
 
 <div class="box1">
 <h2>1-3, デリゲートハーベスティングを有効にさせる</h2>
-<p>
 画像のような画面が出るので、<br>
 次の箇所を確認・入力して[送る]ボタンをクリックしてください。
-</p>
 <p>
 この時、306 Unexpected errorが出る場合があることが確認されています。<br>
 解決策はわかっていないのでとりあえず×ボタンをクリックして閉じましょう。<br>
 もしその後おかしくなったらnemフォーラムやmijinフォーラム等で相談してみましょう。
 </p>
-<p>
 <table>
-<tr><td>アカウント</td><td>デリゲートハーベスティングを有効にしたいVested Balanceが10000XEM以上あるアカウント</td></tr>
+<tr><td>アカウント</td><td>デリゲートハーベスティングを有効にしたいアカウント</td></tr>
 <tr><td>Use minimum fee</td><td>ここにチェックが入っていれば手数料が最小で済みます。</td></tr>
 <tr><td>パスワード</td><td>ウォレットのパスワードを入力してください</td></tr>
 </table>
-</p>
 <a href="https://i.imgur.com/JFVx1Kk.png" rel="lightbox"><img src="https://i.imgur.com/JFVx1Kk.png" alt="" width="30%" /></a>
 </div>
 
@@ -102,20 +98,41 @@
 これで完了です。あとは放置していれば勝手に収穫をしてくれます。<br>
 左のメニューから[ハーベストされたブロック]を開けばどれだけ稼げたか確認できます。<br>
 リモートNISであれば、もうコンピューターを起動させる必要はありません。<br>
-デリゲートハーベスティングの無効化方法はこの下に書いてあります。
+デリゲートハーベスティングの無効化方法はこの下に書いてあります。<br>
+一時的に停止させたい、他のリモートNISに繋ぎたいなどの場合は、[Stop delegated harvesting]ボタンのクリックのみで構いません。<br>
+再開時は「1-5, デリゲートハーベスティングを開始させる」と同様です。
 </div>
 
 <h1>[2] デリゲート(委任)ハーベスティングの無効化</h1>
 <div class="box1">
-<h2>2-1, まず停止させる</h2>
+ローカルハーベスティングに戻したい場合等には無効化が必要です。
+</div>
+<div class="box1">
+<h2>2-1, デリゲートハーベスティングを停止させる</h2>
 「1-5, デリゲートハーベスティングを開始させる」で押した[Start delegated harvesting]ボタンが、<br>
 [Stop delegated harvesting]ボタンに変わっているはずですので、これをクリックし停止させます。<br>
 おそらくこの手順を飛ばしても動くとは思いますが、ハーベスティング関連はバグが多いので念の為やっておきましょう。
 </div>
-<h2>2-2, </h2>
-「5, デリゲートハーベスティングを開始させる」で押した[Start delegated harvesting]ボタンが、<br>
-[Stop delegated harvesting]ボタンに変わっているはずですので、これをクリックし停止させます。<br>
-おそらくこの手順を飛ばしても動くとは思いますが、ハーベスティング関連はバグが多いので念の為やっておきましょう。
+<div class="box1">
+<h2>2-2, [Delegated harvesting]ボタンをクリック</h2>
+右上の[Delegated harvesting]ボタンをクリックします。<br>
+<a href="http://i.imgur.com/B8GZZwG.png" rel="lightbox"><img src="http://i.imgur.com/B8GZZwG.png" alt="" width="30%" /></a>
+</div>
+<div class="box1">
+<h2>2-3, デリゲートハーベスティングを無効にする</h2>
+「1-3, デリゲートハーベスティングを有効にさせる」と同様に、<br>
+次の箇所を確認・入力して[送る]ボタンをクリックしてください。
+<table>
+<tr><td>アカウント</td><td>デリゲートハーベスティングを無効にしたいアカウント</td></tr>
+<tr><td>Use minimum fee</td><td>ここにチェックが入っていれば手数料が最小で済みます。</td></tr>
+<tr><td>パスワード</td><td>ウォレットのパスワードを入力してください</td></tr>
+</table>
+<a href="http://i.imgur.com/ScMOz7X.png" rel="lightbox"><img src="http://i.imgur.com/ScMOz7X.png" alt="" width="30%" /></a>
+</div>
+<div class="box1">
+<h2>2-4, 完了</h2>
+取引履歴に、黄色ののアイコンで、送信者/受信者がDeactivate、メッセージ・残高が n/a となっている取引が表示されます。<br>
+この取引の承認数が360 (およそ6時間かかります)になるとデリゲートハーベスティングの無効化が確定されます。<br>
 </div>
 
 </div>
