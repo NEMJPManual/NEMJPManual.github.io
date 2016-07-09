@@ -4,7 +4,7 @@ layout: default
 post_number: 2
 ---
 
-## デリゲート(委任)ハーベスティングについてのやり方
+## デリゲート(委任)ハーベスティングの利用方法
 
 <div style="margin:10px 0;background-color:#FAFAFA;display:inline-block;border-radius:10px;padding:10px;border:1px solid;">
   <b>このページで必要な知識</b>
@@ -20,15 +20,9 @@ post_number: 2
 
 このページでは、デリゲート(委任)ハーベスティングのやり方を説明しています。
 
-デリゲート(委任)ハーベスティングの仕組みなどについては<a href="#">こちら準備中</a>
-
-ページ内の画像はクリックで拡大できます。
-
 ### 条件
 
 + Vested Balanceが10000以上のアカウントであること(詳しくは<a href="vested_balance.html">Vested Balanceについて</a>を参照。)
-+ Vested Balanceが10000以上のアカウントであること(詳しくは<a href="vested_balance.html">Vested Balanceについて</a>を参照。)
-+ それに加え有効化する際に使用する10XEMがあること。
 + それに加え有効化する際に使用する10XEMがあること。
 
 ### 1-1, NCCを開く
@@ -39,8 +33,7 @@ post_number: 2
 
 次に、右上の[Delegated harvesting]ボタンをクリックします。
 
-<a href="https://i.imgur.com/KGtu1Jc.png" rel="lightbox"><img src="https://i.imgur.com/KGtu1Jc.png" alt="" width="30%" /></a>
-
+<img src="/images/wallet-page.png" class="img-responsive">
 
 ### 1-3, デリゲートハーベスティングを有効にさせる
 
@@ -62,8 +55,7 @@ post_number: 2
 <tr><td>パスワード</td><td>ウォレットのパスワードを入力してください</td></tr>
 </table>
 
-<a href="https://i.imgur.com/JFVx1Kk.png" rel="lightbox"><img src="https://i.imgur.com/JFVx1Kk.png" alt="" width="30%" /></a>
-
+<img src="/images/wallet-page2.png" class="img-responsive">
 
 ### 1-4, およそ6時間待つ
 
@@ -74,8 +66,7 @@ post_number: 2
 
 この取引の承認数が360 (およそ6時間かかります)になるとデリゲートハーベスティングが有効になります。
 
-<a href="https://i.imgur.com/rm81RYW.png" rel="lightbox"><img src="https://i.imgur.com/rm81RYW.png" alt="" width="30%" /></a>
-
+<img src="/images/wallet-page3.png" class="img-responsive">
 
 ### 1-5, デリゲートハーベスティングを開始させる
 
@@ -97,10 +88,9 @@ post_number: 2
 
 いけません。これは残高に応じて少しずつ増えていきますので、早くやりたい場合はXEMを多めに入れておくことをおすすめします。
 
-<a href="https://i.imgur.com/aN9pbFi.png" rel="lightbox"><img src="https://i.imgur.com/aN9pbFi.png" alt="" width="30%" /></a>
+<img src="/images/wallet-page4.png" class="img-responsive">
 
-<a href="https://i.imgur.com/jkQcowG.png" rel="lightbox"><img src="https://i.imgur.com/jkQcowG.png" alt="" width="30%" /></a>
-
+<img src="/images/wallet-page5.png" class="img-responsive">
 
 ### 1-6, 完了
 
@@ -116,7 +106,7 @@ post_number: 2
 
 再開時は「1-5, デリゲートハーベスティングを開始させる」と同様です。
 
-<h1>[2] デリゲート(委任)ハーベスティングの無効化</h1>
+## [2] デリゲート(委任)ハーベスティングの無効化
 
 ローカルハーベスティングに戻したい場合等には無効化が必要です。
 
@@ -132,7 +122,7 @@ post_number: 2
 
 右上の[Delegated harvesting]ボタンをクリックします。
 
-<a href="http://i.imgur.com/B8GZZwG.png" rel="lightbox"><img src="http://i.imgur.com/B8GZZwG.png" alt="" width="30%" /></a>
+<img src="/images/wallet-page6.png" class="img-responsive">
 
 ### 2-3, デリゲートハーベスティングを無効にする
 
@@ -148,7 +138,7 @@ post_number: 2
 <tr><td>パスワード</td><td>ウォレットのパスワードを入力してください</td></tr>
 </table>
 
-<a href="http://i.imgur.com/ScMOz7X.png" rel="lightbox"><img src="http://i.imgur.com/ScMOz7X.png" alt="" width="30%" /></a>
+<img src="/images/wallet-page7.png" class="img-responsive">
 
 ### 2-4, 完了
 

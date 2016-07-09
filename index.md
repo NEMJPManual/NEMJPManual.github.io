@@ -3,23 +3,27 @@ title: Top
 layout: default
 ---
 
-## NEMの説明書 プロジェクトメンバー
+## <i class="fa fa-users" aria-hidden="true"></i> プロジェクトメンバー
 
-### <a href="https://twitter.com/tomotomo_9696">tomotomo</a>
+### <i class="fa fa-user" aria-hidden="true"></i> tomotomo
 
-  鯖缶をCPUクーラーにしたネタ画像の人。
+<a href="https://twitter.com/tomotomo_9696"><i class="fa fa-twitter" aria-hidden="true"></i>@tomotomo_9696</a>
 
-NEMアドレス:<input type="text" value="NAUFIP-HWAAFJ-WLE5C3-3WW36S-I5BVDV-32ODLF-DFBK" size=50 readonly onclick="this.select(0,this.value.length)">
+鯖缶をCPUクーラーにしたネタ画像の人。
+
+NEMアドレス:<input type="text" value="NAUFIP-HWAAFJ-WLE5C3-3WW36S-I5BVDV-32ODLF-DFBK" size="60" readonly onclick="this.select(0,this.value.length)">
 
 
-### <a href="https://twitter.com/him0net">him0</a>
+### <i class="fa fa-user" aria-hidden="true"></i> him0
+
+<a href="https://twitter.com/him0net"><i class="fa fa-twitter" aria-hidden="true"></i>@him0net</a>
 
 NEMでピザ食べた人
 
-NEMアドレス:<input type="text" value="NBXA6F-YUETSR-B5FXTX-GLULQO-EVFNOE-PE7N4H-ATAR" size=50 readonly onclick="this.select(0,this.value.length)">
+NEMアドレス:<input type="text" value="NBXA6F-YUETSR-B5FXTX-GLULQO-EVFNOE-PE7N4H-ATAR" size="60" readonly onclick="this.select(0,this.value.length)">
 
 
-### 共同編集者募集中
+## <i class="fa fa-flag" aria-hidden="true"></i> 共同編集者募集中
 
 <a href="https://twitter.com/tomotomo_9696">@tomotomo_9696</a>もしくは
 <a href="mailto:tomotomo66@hotmail.co.jp">tomotomo66@hotmail.co.jp</a>

@@ -59,4 +59,4 @@ post_number: 4
 
 元画像 https://forum.nem.io/t/nem-supernode-rewards-program/1735 より引用
 
-<img src="http://i.imgur.com/msCfijv.png">
+<img src="/images/super-node-req.png" class="img-responsive">

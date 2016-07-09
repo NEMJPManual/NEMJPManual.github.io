@@ -25,12 +25,13 @@ NEMにはBalance(残高)ともうひとつ、Vested Balance(直訳すると既�
 
 ### 簡単な説明
 
-Vested Balanceは、1440ブロック(およそ1日)毎に<b>(Balance - Vested Balance) * 0.1</b>づつ増えていきます。
+Vested Balanceは、1440ブロック(およそ1日)毎に **(Balance - Vested Balance) × 0.1** づつ増えていきます。
 
-これより http://nem.io/NEM_techRef.pdf NEM referenceより引用
 <blockquote cite="http://nem.io/NEM_techRef.pdf">
-<img src="https://i.imgur.com/09jbXW7.png">
+<img src="/images/gaining-vested-balance.png" class="img-responsive">
 </blockquote>
+
+http://nem.io/NEM_techRef.pdf NEM referenceより引用
 
 上の画像は、100,000XEM入金した際の、Vested balanceの増え方を表しています。
 
@@ -38,16 +39,15 @@ Vested Balanceは、1440ブロック(およそ1日)毎に<b>(Balance - Vested Ba
 
 ですから、ハーベスティング目的でXEMを保有する際は、10,000XEM丁度ではなく、多めに購入することをおすすめします。
 
-
 次の画像のグラフは、XEM入金量とVested Balanceが10,000以上になる日数の関係をあらわしたものです。
 
 (上の画像ははXEM入金量が10,000~110,000の場合、下の画像は上の画像のグラフを15,000~110,000の範囲で拡大したものです。)
 
 実際の計算方法とは異なる可能性があるので、目安としてお使いください。
 
-<a href="http://i.imgur.com/qsU8CyN.png" rel="lightbox"><img src="http://i.imgur.com/qsU8CyN.png" alt="" width="30%" /></a>
+<img src="/images/amount-of-xem.png" class="img-responsive">
 
-<a href="http://i.imgur.com/Kbh4Nnw.png" rel="lightbox"><img src="http://i.imgur.com/Kbh4Nnw.png" alt="" width="30%" /></a>
+<img src="/images/amount-of-xem2.png" class="img-responsive">
 
 ### なんでこんなめんどくさいのか
 

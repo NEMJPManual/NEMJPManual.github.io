@@ -49,7 +49,7 @@ NEMではこれが約1分に1回行われていて、その1分間に取引が�
 
 なお「‱」はパーミリアドと読み、1‱は0.01%を意味します。
 
-<a href="https://i.imgur.com/FUEwf6U.png" rel="lightbox"><img src="https://i.imgur.com/FUEwf6U.png" alt="" width="30%" /></a>
+<img src="/images/wallet-page8.png" class="img-responsive">
 
 ## ハーベスティングの種類
 ハーベスティングにはローカルハーベスティングとデリゲート(委任)ハーベスティングの2種類があります。
