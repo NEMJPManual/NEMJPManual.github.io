@@ -1,0 +1,9 @@
+<div id="sidebar-wrapper">
+  <ul class="sidebar-nav">
+    <li><a href=".">Top</a></li>
+    {% assign sorted_pages = (site.pages | sort: 'post_number') %}
+    {% for page in sorted_pages %}
+    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
