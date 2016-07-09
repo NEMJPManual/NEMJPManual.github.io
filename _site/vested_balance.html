@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+  <title>NEMの説明書 - VestedBalanceについて</title>
+  
+  <!-- Bootstrap Core CSS -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="/css/simple-sidebar.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle navbar-toggle-left pull-left" id="menu-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href=".">NEMの説明書</a>
+        </div>
+      </div>
+    </nav>
+
+  <div id="wrapper">
+    <div id="sidebar-wrapper">
+  <ul class="sidebar-nav">
+    <li><a href=".">Top</a></li>
+    
+    
+    <li><a href="/words.html">NEM基本用語</a></li>
+    
+    <li><a href="/vested_balance.html">VestedBalanceについて</a></li>
+    
+    <li><a href="/delegated_harvesting.html">デリゲートハーベスティング</a></li>
+    
+    <li><a href="/ncc_error_list.html">NCC エラーリスト</a></li>
+    
+    <li><a href="/harvesting.html">ハーベスティングとは</a></li>
+    
+    <li><a href="/supernode_require.html">スーパーノードの必要条件</a></li>
+    
+  </ul>
+</div>
+
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 id="vestedbalance">VestedBalanceについて</h2>
+
+<div style="margin:10px 0;background-color:#FAFAFA;display:inline-block;border-radius:10px;padding:10px;border:1px solid;">
+<b>このページで必要な知識</b>
+<ul>
+  <li>パソコンの基本的な知識</li>
+</ul>
+</div>
+
+<p>このページでは、Vested Balanceを説明しています。</p>
+
+<h2 id="section">概要</h2>
+
+<p>NEMにはBalance(残高)ともうひとつ、Vested Balance(直訳すると既得残高)というものがあります。</p>
+
+<p>ハーベスティングを行うにはこのVested Balanceが10,000以上にならなければなりません。</p>
+
+<h2 id="section-1">説明</h2>
+
+<h3 id="section-2">簡単な説明</h3>
+
+<p>Vested Balanceは、1440ブロック(およそ1日)毎に<b>(Balance - Vested Balance) * 0.1</b>づつ増えていきます。</p>
+
+<p>これより http://nem.io/NEM_techRef.pdf NEM referenceより引用</p>
+<blockquote cite="http://nem.io/NEM_techRef.pdf">
+<img src="https://i.imgur.com/09jbXW7.png" />
+</blockquote>
+
+<p>上の画像は、100,000XEM入金した際の、Vested balanceの増え方を表しています。</p>
+
+<p>これが入金額と同じ100,000になるには途方もない時間がかかることは容易に想像できます。</p>
+
+<p>ですから、ハーベスティング目的でXEMを保有する際は、10,000XEM丁度ではなく、多めに購入することをおすすめします。</p>
+
+<p>次の画像のグラフは、XEM入金量とVested Balanceが10,000以上になる日数の関係をあらわしたものです。</p>
+
+<p>(上の画像ははXEM入金量が10,000~110,000の場合、下の画像は上の画像のグラフを15,000~110,000の範囲で拡大したものです。)</p>
+
+<p>実際の計算方法とは異なる可能性があるので、目安としてお使いください。</p>
+
+<p><a href="http://i.imgur.com/qsU8CyN.png" rel="lightbox"><img src="http://i.imgur.com/qsU8CyN.png" alt="" width="30%" /></a></p>
+
+<p><a href="http://i.imgur.com/Kbh4Nnw.png" rel="lightbox"><img src="http://i.imgur.com/Kbh4Nnw.png" alt="" width="30%" /></a></p>
+
+<h3 id="section-3">なんでこんなめんどくさいのか</h3>
+
+<p>簡単にいうと大量のハーベスティング目的のアカウント(所謂副垢)を作らせないためです。</p>
+
+<p>１つハーベスティング用のアカウントを作るのに、多くの時間またはお金を掛けさせることにより、大量に作ることを困難にさせています。</p>
+
+<p>そうすることでネットワークが安定するそうです。</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /#wrapper -->
+  <!-- jQuery -->
+<script src="/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+
+<!-- Menu Toggle Script -->
+<script>
+$("#menu-toggle").click(function(e) {
+  e.preventDefault();
+  $("#wrapper").toggleClass("toggled");
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+  <title>NEMの説明書 - NCC エラーリスト</title>
+  
+  <!-- Bootstrap Core CSS -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="/css/simple-sidebar.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle navbar-toggle-left pull-left" id="menu-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href=".">NEMの説明書</a>
+        </div>
+      </div>
+    </nav>
+
+  <div id="wrapper">
+    <div id="sidebar-wrapper">
+  <ul class="sidebar-nav">
+    <li><a href=".">Top</a></li>
+    
+    
+    <li><a href="/words.html">NEM基本用語</a></li>
+    
+    <li><a href="/vested_balance.html">VestedBalanceについて</a></li>
+    
+    <li><a href="/delegated_harvesting.html">デリゲートハーベスティング</a></li>
+    
+    <li><a href="/ncc_error_list.html">NCC エラーリスト</a></li>
+    
+    <li><a href="/harvesting.html">ハーベスティングとは</a></li>
+    
+    <li><a href="/supernode_require.html">スーパーノードの必要条件</a></li>
+    
+  </ul>
+</div>
+
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 id="ncc-">NCC エラーリスト</h2>
+
+<p>NEM Community Clientで出るエラーのリストです。</p>
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <tbody>
+    <tr>
+      <th>エラーコード</th>
+      <th>エラー内容</th>
+    </tr>
+    <tr>
+      <td>101</td>
+      <td>ウォレットファイルが存在しません。</td>
+    </tr>
+    <tr>
+      <td>102</td>
+      <td>ウォレットが作成できませんでした。</td>
+    </tr>
+    <tr>
+      <td>103</td>
+      <td>ウォレットファイルが壊れています。バックアップからウォレットを回復してください。</td>
+    </tr>
+    <tr>
+      <td>104</td>
+      <td>ウォレットのために提供されたパスワードが正しくありません。(パスワード不正)</td>
+    </tr>
+    <tr>
+      <td>105</td>
+      <td>パスワードはウォレットのために提供されませんでした。(パスワード未入力)</td>
+    </tr>
+    <tr>
+      <td>106</td>
+      <td>ウォレットを開く前に、ウォレットのロックを解いてください. ウォレットにパスワードを入力することでアクセスすることができます。(再ログインが必要)</td>
+    </tr>
+    <tr>
+      <td>107</td>
+      <td>ウォレットにはこのアカウントはありません。(不明なアカウント)</td>
+    </tr>
+    <tr>
+      <td>108</td>
+      <td>このアカウントは削除することができません。おそらく、アカウント残高がゼロではないか、そのアカウントがプライマリーアカウント（削除不可なアカウント）だからです。</td>
+    </tr>
+    <tr>
+      <td>109</td>
+      <td>同名のウォレットがすでに存在します。他の名前にしてください。</td>
+    </tr>
+    <tr>
+      <td>110</td>
+      <td>ウォレットにはこのアカウントはもうすでに存在しています。</td>
+    </tr>
+    <tr>
+      <td>111</td>
+      <td>そのウォレット名はディレクトリです。(PATHが不正)</td>
+    </tr>
+    <tr>
+      <td>112</td>
+      <td>ウォレットファイルの拡張子が正しくありません。</td>
+    </tr>
+    <tr>
+      <td>113</td>
+      <td>ウォレットを削除できませんでした。</td>
+    </tr>
+    <tr>
+      <td>121</td>
+      <td>アドレス帳ファイルが存在しません。</td>
+    </tr>
+    <tr>
+      <td>122</td>
+      <td>アドレス帳が作成されていません。.</td>
+    </tr>
+    <tr>
+      <td>123</td>
+      <td>アドレス帳ファイルが破損しています。バックアップからアドレス帳を回復してください。</td>
+    </tr>
+    <tr>
+      <td>124</td>
+      <td>アドレス帳のために提供されたパスワードが正しくありません。(パスワード不正)</td>
+    </tr>
+    <tr>
+      <td>125</td>
+      <td>パスワードは、アドレス帳のために提供されませんでした。(パスワード未入力)</td>
+    </tr>
+    <tr>
+      <td>127</td>
+      <td>アドレス帳に、このアドレスが含まれていません。</td>
+    </tr>
+    <tr>
+      <td>128</td>
+      <td>提供されたアドレスは有効ではありません。(アドレス不正)</td>
+    </tr>
+    <tr>
+      <td>129</td>
+      <td>同じ名前の別のアドレス帳がすでに存在しています。別の名前を選択してください。</td>
+    </tr>
+    <tr>
+      <td>130</td>
+      <td>アドレス帳には既にこのアドレスが含まれています。</td>
+    </tr>
+    <tr>
+      <td>131</td>
+      <td>そのアドレス帳の名前はディレクトリです。(PATHが不正)</td>
+    </tr>
+    <tr>
+      <td>132</td>
+      <td>アドレス帳ファイルの拡張子が正しくありません。</td>
+    </tr>
+    <tr>
+      <td>133</td>
+      <td>アドレス帳を削除できませんでした。</td>
+    </tr>
+    <tr>
+      <td>202</td>
+      <td>相手が過去に取引を行ったことがないので<s>送金及びメッセージを送信されていない為</s>、このメッセージを暗号化して送れません。</td>
+    </tr>
+    <tr>
+      <td>203</td>
+      <td>すべての署名が知られていないため、アカウントを変換できません。これらが同じウォレット内にあるか、少なくとも1回の取引をしている必要があります。</td>
+    </tr>
+    <tr>
+      <td>305</td>
+      <td>NISは使用できません。NEM(NIS/NCC)ソフトウェアを再起動してみてください。もしリモートNISを使用している場合、設定したホストをタイプミスしていないか確認するか、または別のリモートNISに接続してみてください。</td>
+    </tr>
+    <tr>
+      <td>306</td>
+      <td>開発者が考えられなかったエラーが発生しまして、申し訳ありません。もう一度実行して、問題が再び発生したら場合、NIS/NCCのサイトにエラーリポートを書いてください。(想定外のエラー)</td>
+    </tr>
+    <tr>
+      <td>400</td>
+      <td>パラメーターがないか間違っています。</td>
+    </tr>
+    <tr>
+      <td>401</td>
+      <td>リモートのNISにそれを送信することにより、秘密鍵を漏らす可能性があるため、この操作を完了できません。(リモートNISに対してローカルハーベストを要求)</td>
+    </tr>
+    <tr>
+      <td>404</td>
+      <td>リクエストされたリソースが見かりませんでした。</td>
+    </tr>
+    <tr>
+      <td>500</td>
+      <td>設定ファイルの保存に失敗しました。</td>
+    </tr>
+    <tr>
+      <td>600</td>
+      <td>NEMクラウドからトランザクション(取引)履歴を送受信するために、NISが起動している必要があります。ローカルノードを起動するためにNCCメニューエントリを使用してください。</td>
+    </tr>
+    <tr>
+      <td>601</td>
+      <td>NISノードはすでに起動しています。NISは複数起動することができません。</td>
+    </tr>
+    <tr>
+      <td>602</td>
+      <td>ほとんど準備ができています。NISは、現在ブロックをロードしています。データベースが完全にロードされたときにウォレットが機能するようになります。(NIS準備中)</td>
+    </tr>
+    <tr>
+      <td>699</td>
+      <td>NISによって許可されている最大ハーベスト数に達しています（定員オーバー）</td>
+    </tr>
+    <tr>
+      <td>700</td>
+      <td>入力されたアカウントがハーベストのための基準を満たしていません。その基準はそのアカウントにあるXEMの量が関係しています。ハーベストは少なくとも10000 vested XEMから始めることができます。</td>
+    </tr>
+    <tr>
+      <td>901</td>
+      <td>オフラインモードに移行する際にエラーが発生しました。</td>
+    </tr>
+    <tr>
+      <td>1000</td>
+      <td>入力されたプライベートキーとパブリックキーが合っていません。</td>
+    </tr>
+    <tr>
+      <td>1001</td>
+      <td>入力されたパブリックキーとNEMアドレスが合っていません。</td>
+    </tr>
+    <tr>
+      <td>1002</td>
+      <td>アドレスは、メインネットワークに属していません。(アドレス不正)</td>
+    </tr>
+    <tr>
+      <td>1203</td>
+      <td>提供期限が過ぎています。期限は1日間です。</td>
+    </tr>
+    <tr>
+      <td>1204</td>
+      <td>提供期限はまだ先です。期間は1日間です。</td>
+    </tr>
+    <tr>
+      <td>1205</td>
+      <td>あなたのアカウントには、この取引を行うために、十分な残高がありません。</td>
+    </tr>
+    <tr>
+      <td>1206</td>
+      <td>入力されたメッセージテキストは、NEMを経由して送信するには長すぎます。メッセージを短くしてください。</td>
+    </tr>
+    <tr>
+      <td>1207</td>
+      <td>その取引のハッシュはすでにデータベースの未検証取引の中に存在しています。(取引重複)</td>
+    </tr>
+    <tr>
+      <td>1208</td>
+      <td>トランザクション(取引)の電子署名の正当性を確認できませんでした。</td>
+    </tr>
+    <tr>
+      <td>1209</td>
+      <td>トランザクション(取引)IDのタイムスタンプが古すすぎます。</td>
+    </tr>
+    <tr>
+      <td>1210</td>
+      <td>トランザクション(取引)のタイムスタンプが先すぎます</td>
+    </tr>
+    <tr>
+      <td>1219</td>
+      <td>トランザクションキャッシュがいっぱいであるため、取引が拒否されました。より高い手数料を払えば取引が承認されるかもしれません。</td>
+    </tr>
+    <tr>
+      <td>1262</td>
+      <td>委任ハーベスティング用のアカウントの残高が0ではないため、このアカウントを委任ハーベスティングに使用することはできません。</td>
+    </tr>
+    <tr>
+      <td>1263</td>
+      <td>Importanceの移行が拒否されました。すでにImportanceの移行が保留中です。</td>
+    </tr>
+    <tr>
+      <td>1264</td>
+      <td>委任ハーベスティングはすでに有効になっています。</td>
+    </tr>
+    <tr>
+      <td>1265</td>
+      <td>委任ハーベスティングが有効ではありませんので、無効にすることはできません。</td>
+    </tr>
+    <tr>
+      <td>1266</td>
+      <td>Importanceの移行トランザクション（委任ハーベスティング）が既存のトランザクションと競合しています。</td>
+    </tr>
+    <tr>
+      <td>1271</td>
+      <td>Multisig署名トランザクションが拒否されました。現在のアカウントがmultisig口座の署名者ではありません。</td>
+    </tr>
+    <tr>
+      <td>1273</td>
+      <td>Multisig署名トランザクションが拒否されました。関連するmultisigトランザクションはNEMネットワークに知られていません</td>
+    </tr>
+    <tr>
+      <td>1274</td>
+      <td>トランザクションはmultisigアカウントに許可されていません。</td>
+    </tr>
+    <tr>
+      <td>1275</td>
+      <td>Multisigアカウントの変更が拒否されました。追加したアカウントの一つは、すでに共同署名者です。</td>
+    </tr>
+    <tr>
+      <td>1321</td>
+      <td>不明なアカウントです。アカウントはNEMクラウド内で共有されている少なくとも1つのトランザクション(取引)に記載されている必要がある。(送信側、受信側どちらでも良い)</td>
+    </tr>
+  </tbody>
+</table>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /#wrapper -->
+  <!-- jQuery -->
+<script src="/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+
+<!-- Menu Toggle Script -->
+<script>
+$("#menu-toggle").click(function(e) {
+  e.preventDefault();
+  $("#wrapper").toggleClass("toggled");
+});
+</script>
+
+</body>
+</html>

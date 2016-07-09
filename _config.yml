@@ -1,0 +1,11 @@
+# Site settings
+title: NEMの説明書
+url: "http://http://nemmanual.net/" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+collections:
+  pages:
+    output: true
+    permalink: /:title.html

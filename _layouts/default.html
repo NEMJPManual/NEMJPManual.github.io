@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+{% include head.html %}
+<body>
+  {% include header.html %}
+  <div id="wrapper">
+    {% include sidebar.html %}
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /#wrapper -->
+  {% include footer.html %}
+</body>
+</html>

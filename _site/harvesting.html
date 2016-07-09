@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+  <title>NEMの説明書 - ハーベスティングとは</title>
+  
+  <!-- Bootstrap Core CSS -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="/css/simple-sidebar.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle navbar-toggle-left pull-left" id="menu-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href=".">NEMの説明書</a>
+        </div>
+      </div>
+    </nav>
+
+  <div id="wrapper">
+    <div id="sidebar-wrapper">
+  <ul class="sidebar-nav">
+    <li><a href=".">Top</a></li>
+    
+    
+    <li><a href="/words.html">NEM基本用語</a></li>
+    
+    <li><a href="/vested_balance.html">VestedBalanceについて</a></li>
+    
+    <li><a href="/delegated_harvesting.html">デリゲートハーベスティング</a></li>
+    
+    <li><a href="/ncc_error_list.html">NCC エラーリスト</a></li>
+    
+    <li><a href="/harvesting.html">ハーベスティングとは</a></li>
+    
+    <li><a href="/supernode_require.html">スーパーノードの必要条件</a></li>
+    
+  </ul>
+</div>
+
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 id="section">ハーベスティングとは</h2>
+
+<div style="margin:10px 0;background-color:#FAFAFA;display:inline-block;border-radius:10px;padding:10px;border:1px solid;">
+  <b>このページで必要な知識</b>
+  <ul>
+    <li>NEM基本用語</li>
+    <li>NIS/NCCとlightwallet</li>
+    <li>リモートNISとローカルNIS</li>
+    <li>Vested Balanceについて</li>
+  </ul>
+</div>
+
+<p>このページでは、ハーベスティングの概要と仕組みを説明しています。</p>
+
+<p>デリゲート(委任)ハーベスティングのやり方についてはこちら準備中</p>
+
+<p>ページ内の画像はクリックで拡大できます。</p>
+
+<h2 id="section-1">一言で</h2>
+
+<p>もし10000XEM以上(Vested Balanceが)もっていれば、やるとタダでXEMがもらえる。</p>
+
+<h2 id="section-2">概要</h2>
+
+<p>NEM利用者は、取引が正当だと承認してもらうために手数料を払い取引を行います。(手数料がないと承認する人にとってメリットが無いため。)</p>
+
+<p>承認は10000XEM以上(Vested Balanceが)持っているアカウントなら誰でも行うことができます。</p>
+
+<p>取引を承認し、払われた手数料を受け取ることをNEMでは「ハーベスティング(収穫)」と呼ばれています。</p>
+
+<p>NEMではこれが約1分に1回行われていて、その1分間に取引がなければ手数料が払われていないため収穫しても報酬を受け取ることはできません。</p>
+
+<p>誰が収穫するか は、Inportance(重要性)を元に、多分ランダムで決まります。</p>
+
+<p>このImportanceが高いほど、分子が大きくなることを意味し、収穫できる確率が高まります。</p>
+
+<p>このImportanceは、XEM保有量を元に、取引数、取引量、取引相手などを考慮し決定されています。</p>
+
+<p>複雑な計算式が設定されているので、ここではその説明は割愛します。</p>
+
+<p>自身のImportanceはNCCのダッシュボード、「右上のNEMクラウドのアカウントの重要性」で確認できます。</p>
+
+<p>なお「‱」はパーミリアドと読み、1‱は0.01%を意味します。</p>
+
+<p><a href="https://i.imgur.com/FUEwf6U.png" rel="lightbox"><img src="https://i.imgur.com/FUEwf6U.png" alt="" width="30%" /></a></p>
+
+<h2 id="section-3">ハーベスティングの種類</h2>
+<p>ハーベスティングにはローカルハーベスティングとデリゲート(委任)ハーベスティングの2種類があります。</p>
+
+<p>どちらでも報酬は変わりません。が、それぞれメリットデメリットがあるのでそれぞれの環境でどちらを利用するべきかが変わります。
+### ローカルハーベスティング</p>
+
+<h4 id="section-4">メリット</h4>
+<ul>
+  <li>ボタン１つですぐできる</li>
+  <li>手数料がかからない</li>
+</ul>
+
+<h4 id="section-5">デメリット</h4>
+<ul>
+  <li>リモートのNIS使用時にはできない</li>
+  <li>自分でNISを維持しないといけない(電気代などがかかる)</li>
+</ul>
+
+<h3 id="section-6">デリゲート(委任)ハーベスティング</h3>
+
+<h4 id="section-7">メリット</h4>
+<ul>
+  <li>リモートNISでも利用できる</li>
+  <li>(リモートNISを利用した場合)自身のコンピュータの電源を切っても継続される</li>
+</ul>
+
+<h4 id="section-8">デメリット</h4>
+<ul>
+  <li>6時間待たないといけない</li>
+  <li>手数料(今は10XEM)がかかる。無効化するときも同様。</li>
+  <li>リモートNISの中には定員を設定してあることがある</li>
+</ul>
+
+<p>基本的に自分で24時間NISを起動させており、電気代を気にしない方はローカル、それ以外の方はデリゲート(委任)をおすすめします。</p>
+
+<p>(リモートNISに対してローカルハーベスティングはできませんが、ローカルNISに対してデリゲート(委任)ハーベスティングはすることができます。しかし、この場合ローカルNISが稼働している間しか収穫できませんが、それはローカルハーベスティングでも同じなので、ローカルハーベスティングを使用したほうが、手数料を取られなくて済みます。)</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /#wrapper -->
+  <!-- jQuery -->
+<script src="/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+
+<!-- Menu Toggle Script -->
+<script>
+$("#menu-toggle").click(function(e) {
+  e.preventDefault();
+  $("#wrapper").toggleClass("toggled");
+});
+</script>
+
+</body>
+</html>
