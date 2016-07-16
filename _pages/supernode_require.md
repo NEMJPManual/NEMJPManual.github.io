@@ -1,7 +1,7 @@
 ---
 title: スーパーノードの必要条件
 layout: default
-post_number: 4
+post_number: 6
 ---
 
 ## スーパーノードの必要条件

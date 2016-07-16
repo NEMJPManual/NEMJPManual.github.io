@@ -1,7 +1,7 @@
 ---
 title: デリゲートハーベスティング
 layout: default
-post_number: 2
+post_number: 4
 ---
 
 ## デリゲート(委任)ハーベスティングの利用方法
