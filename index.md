@@ -25,9 +25,9 @@ NEMアドレス:<input type="text" value="NBXA6F-YUETSR-B5FXTX-GLULQO-EVFNOE-PE7
 
 ## <i class="fa fa-flag" aria-hidden="true"></i> 共同編集者募集中
 
-<a href="https://twitter.com/tomotomo_9696">@tomotomo_9696</a>もしくは
-<a href="mailto:tomotomo66@hotmail.co.jp">tomotomo66@hotmail.co.jp</a>
+<a href="https://twitter.com/tomotomo_9696"><i class="fa fa-twitter" aria-hidden="true"></i>@tomotomo_9696</a>もしくは
+<a href="mailto:tomotomo66@hotmail.co.jp"><i class="fa fa-envelope-o" aria-hidden="true"></i>tomotomo66@hotmail.co.jp</a>
 まで。
 
-## プロジェクト リポジトリ
-[<i class="fa fa-github" aria-hidden="true">NEMJPManual/NEMJPManual.github.io](https://github.com/NEMJPManual/NEMJPManual.github.io)
+## <i class="fa fa-github" aria-hidden="true"></i>プロジェクト リポジトリ
+[<i class="fa fa-github" aria-hidden="true"></i>NEMJPManual/NEMJPManual.github.io](https://github.com/NEMJPManual/NEMJPManual.github.io)
