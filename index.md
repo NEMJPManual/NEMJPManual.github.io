@@ -28,3 +28,6 @@ NEMアドレス:<input type="text" value="NBXA6F-YUETSR-B5FXTX-GLULQO-EVFNOE-PE7
 <a href="https://twitter.com/tomotomo_9696">@tomotomo_9696</a>もしくは
 <a href="mailto:tomotomo66@hotmail.co.jp">tomotomo66@hotmail.co.jp</a>
 まで。
+
+## プロジェクト リポジトリ
+[<i class="fa fa-github" aria-hidden="true">NEMJPManual/NEMJPManual.github.io](https://github.com/NEMJPManual/NEMJPManual.github.io)
