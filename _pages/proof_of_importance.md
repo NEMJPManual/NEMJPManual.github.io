@@ -64,6 +64,6 @@ POWは実装された一番初めのシステムであり、ビットコイン�
 
 ローカルハーベスティングを始めるには、左のメニューからharvested blocksを選び、”Start local harvesting” をクリックしてください。
 
-委託ハーベスティングに興味のある方は[こちら](http://blog.nem.io/how-local-and-delegated-harvesting-works/)をご覧ください。
+委託ハーベスティングに興味のある方は[こちら](delegated_harvesting.html)をご覧ください。
 
 さらに詳しいNEMの情報は、[NEMのフォーラム](https://forum.nem.io/)をご覧ください。
