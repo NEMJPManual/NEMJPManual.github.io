@@ -6,7 +6,7 @@ post_number: 7
 
 原文：[What is Proof-of-Importance (POI) and Why Is It Better, and What Is Vesting?](http://blog.nem.io/what-are-poi-and-vesting/)
 
-翻訳：[<i class="fa fa-twitter" aria-hidden="true"></i>@CoffeeTimesTW](https://twitter.com/CoffeeTimesTW)
+翻訳：[<i class="fa fa-twitter" aria-hidden="true"></i>@CoffeeTimesTW](https://twitter.com/CoffeeTimesTW) <a href="https://github.com/CoffeeTimes"><i class="fa fa-github" aria-hidden="true"></i>CoffeeTimes</a>
 
 <img src="/images/poi0.png" class="img-responsive">
 
