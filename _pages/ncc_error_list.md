@@ -1,7 +1,7 @@
 ---
 title: NCC エラーリスト
 layout: default
-post_number: 3
+post_number: 5
 ---
 
 ## NCC エラーリスト

@@ -1,7 +1,7 @@
 ---
 title: ハーベスティングとは
 layout: default
-post_number: 3
+post_number: 2
 ---
 
 ## ハーベスティングとは
