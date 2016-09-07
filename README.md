@@ -13,6 +13,9 @@ ruby のバージョンは2.2.0が設定されています。
 $ bundle install --path=vendor/bundle
 $ bundle exec jekyll s -o # サーバ起動
 ```
+```
+$ bundle exec jekyll s --force_polling -o # 動かなかったら(Bash on windows等)
+```
 
 ## マニュアルの追加の仕方
 
