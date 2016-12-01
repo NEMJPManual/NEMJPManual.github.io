@@ -3,6 +3,12 @@ title: Top
 layout: default
 ---
 
+## <i class="fa fa-link" aria-hidden="true"></i>リンク集
+
+### <a href="https://www.nem.io/?setLng=ja">NEM 公式サイト</a>
+
+### <a href="https://NEMJPManual.github.io/NEM_Technical_reference_JA/">NEM Technical Referenceの和訳</a>
+
 ## <i class="fa fa-users" aria-hidden="true"></i> プロジェクトメンバー
 
 ### <i class="fa fa-user" aria-hidden="true"></i> tomotomo
