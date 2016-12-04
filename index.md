@@ -33,6 +33,17 @@ NEMでピザ食べた人
 NEMアドレス:<input type="text" value="NBXA6F-YUETSR-B5FXTX-GLULQO-EVFNOE-PE7N4H-ATAR" size="55" readonly onclick="this.select(0,this.value.length)">
 
 
+### <i class="fa fa-user" aria-hidden="true"></i> joemphilips
+
+<a href="https://twitter.com/joemphilips"><i class="fa fa-twitter" aria-hidden="true"></i>@joemphilips</a>
+
+<a href="https://github.com/joemphilips"><i class="fa fa-github" aria-hidden="true"></i>joemphilips</a>
+
+NEMに共産主義社会実現の夢を託す人
+
+NEMアドレス:<input type="text" value="NBZ5WW-S53QRZ-DO73Z7-B6CA6I-R2PNS4-PLR24N-NKZJ" size="55" readonly onclick="this.select(0,this.value.length)">
+
+
 ## <i class="fa fa-flag" aria-hidden="true"></i> 共同編集者募集中
 
 <a href="https://twitter.com/tomotomo_9696"><i class="fa fa-twitter" aria-hidden="true"></i>@tomotomo_9696</a>もしくは
