@@ -39,7 +39,7 @@ NEMアドレス:<input type="text" value="NBXA6F-YUETSR-B5FXTX-GLULQO-EVFNOE-PE7
 
 <a href="https://github.com/joemphilips"><i class="fa fa-github" aria-hidden="true"></i>joemphilips</a>
 
-NEMに共産主義社会実現の夢を託す人
+さすらいのNEMer
 
 NEMアドレス:<input type="text" value="NBZ5WW-S53QRZ-DO73Z7-B6CA6I-R2PNS4-PLR24N-NKZJ" size="55" readonly onclick="this.select(0,this.value.length)">
 
