@@ -68,7 +68,7 @@ New Economy Movementの略。直訳すると新しい経済の動きとなる。
 
 ### NIS
 
-NEM Infrastructure Serverの略。NEMではNISがブロックチェーンの管理をNISが担っており、財産を管理する「お財布」機能はクライアントとして分離されている。
+NEM Infrastructure Serverの略。NEMではNISがブロックチェーンの管理を担っており、財産を管理する「お財布」機能はクライアントとして分離されている。
 
 ブロックチェーンを維持する基本機能だけでなく、クライアントへAPIを提供している。
 
