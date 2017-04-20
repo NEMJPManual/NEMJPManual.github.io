@@ -9,6 +9,8 @@ layout: default
 
 ### <a href="http://nemmanual.net/NEM_Technical_reference_JA/">NEM Technical Referenceの和訳</a>
 
+### <a href="https://www.pr1sm.com/crypto-coin/nem-nis-api-documentation-in-japanese/">NEM APIマニュアル和訳</a>
+
 ## <i class="fa fa-users" aria-hidden="true"></i> プロジェクトメンバー
 
 ### <i class="fa fa-user" aria-hidden="true"></i> tomotomo
