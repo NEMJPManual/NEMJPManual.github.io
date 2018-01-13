@@ -109,3 +109,7 @@ NanoWalletでウォレットを新規作成する際に表示される選択肢�
 ### Importance
 
 重要度と訳される。NEMのネットワーク上での自分のアドレスの重要度。XEMの保有量や取引量、取引した相手のImportance等を複雑な計算式に掛けて決めるらしい。
+
+<hr/>
+
+<p>Update(2018-01-14): Wallet の名称の修正 by @GodTanu</p>
